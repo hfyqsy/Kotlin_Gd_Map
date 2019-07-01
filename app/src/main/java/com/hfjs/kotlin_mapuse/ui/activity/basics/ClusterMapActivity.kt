@@ -49,7 +49,8 @@ class ClusterMapActivity : BaseActivity(R.layout.activity_cluster_map) {
     override fun initData() {
         super.initData()
         mClusterItems = ArrayList()
-        thread { addCluster(true) }.start()
+        addCluster(true)
+//        thread {  }.start()
     }
 
     //点击监听事件
@@ -58,15 +59,15 @@ class ClusterMapActivity : BaseActivity(R.layout.activity_cluster_map) {
         rdb_cluster.setOnClickListener {
             Logger.e("聚合")
             mClusterRenderer!!.minClusterSize = 2
-//            addCluster(true)
-            thread { addCluster(true) }.start()
+            addCluster(true)
+//            thread { addCluster(true) }.start()
         }
         //展开
         rdb_uncluster.setOnClickListener {
             Logger.e("展开")
             mClusterRenderer!!.minClusterSize = 100
-//            addCluster(false)
-            thread { addCluster(false) }.start()
+            addCluster(false)
+//            thread { addCluster(false) }.start()
         }
     }
 
