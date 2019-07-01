@@ -4,13 +4,13 @@
 
 
 ## Demo图片展示
-| <img src="picture/icon_cluster_two.png" width="300"> | <img src="picture/icon_cluster_two_open.png" width="300"> | <img src="picture/icon_cluster_one.png" width="300"> |
+| <img src="picture/icon_cluster_two.png" width="240"> | <img src="picture/icon_cluster_two_open.png" width="240"> | <img src="picture/icon_cluster_one.png" width="240"> |
 
-| <img src="picture/icon__marker_move.png" width="300"> | <img src="picture/icon_drive_route.png" width="300"> | <img src="icon_map_marker.png" width="300"> |
+| <img src="picture/icon__marker_move.png" width="240"> | <img src="picture/icon_drive_route.png" width="240"> | <img src="icon_map_marker.png" width="240"> |
 
-| <img src="picture/icon_search.png" width="300"> | <img src="picture/icon_route.png" width="300"> | <img src="picture/icon_route_detail.png" width="300"> |
+| <img src="picture/icon_search.png" width="240"> | <img src="picture/icon_route.png" width="240"> | <img src="picture/icon_route_detail.png" width="240"> |
 
-| <img src="picture/icon_navi.png" width="300"> |
+| <img src="picture/icon_navi.png" width="240"> |
 
 ## 类说明
 
