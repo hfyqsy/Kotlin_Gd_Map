@@ -14,7 +14,7 @@ import java.io.File
 class ShowImgActivity:BaseActivity(R.layout.activity_imageshow) {
     private var iv: ImageView? = null
     override fun initView() {
-        initToolbar(intent.getIntExtra("title", 0))
+//        initToolbar(intent.getIntExtra("title", 0))
         iv = findViewById<View>(R.id.iv) as ImageView
         val bitmap =
             getDiskBitmap(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "test1.png")

@@ -96,7 +96,7 @@ class DriveActivity : BaseMapActivity(R.layout.activity_drive), RouteSearch.OnRo
             secondLine.text = "打车约 ${mDriveResult.taxiCost}元"
             driveBottomLayout.setOnClickListener {
                 val intent = Intent(this, RouteDetailActivity::class.java)
-                intent.putExtra("DriveRouteResult", mDriveResult)
+                intent.putExtra("RouteResult", mDriveResult)
                 startActivity(intent)
             }
 

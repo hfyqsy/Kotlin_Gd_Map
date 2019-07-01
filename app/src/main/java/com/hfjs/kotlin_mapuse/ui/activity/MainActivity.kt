@@ -50,7 +50,7 @@ class MainActivity : BaseActivity(R.layout.activity_main) {
         testBeans.add(MainEntity(R.string.title_basics_cluster, ClusterMapActivity::class.java))
         testBeans.add(MainEntity(R.string.title_basics_cluster2, ClusterOverActivity::class.java))
         testBeans.add(MainEntity(R.string.title_basics_screenshot, ScreenshotActivity::class.java))
-        testBeans.add(MainEntity(R.string.title_basics_change, ChangeMapActivity::class.java))
+//        testBeans.add(MainEntity(R.string.title_basics_change, ChangeMapActivity::class.java))
         testBeans.add(MainEntity(R.string.title_cover))
         testBeans.add(MainEntity(R.string.title_cover_types, CloverTaggingActivity::class.java))
         testBeans.add(MainEntity(R.string.title_trail))
