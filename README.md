@@ -4,7 +4,7 @@
 
 
 ## Demo图片展示
-| <img src="picture/icon_cluster_two.png" width="240" height="500"> | <img src="picture/icon_cluster_two_open.png" width="240"> | <img src="picture/icon_cluster_one.png" width="240"> |
+| <img src="picture/icon_cluster_two.png" width="240" height="400"> | <img src="picture/icon_cluster_two_open.png" width="240"> | <img src="picture/icon_cluster_one.png" width="240"> |
 
 | <img src="picture/icon__marker_move.png" width="240"> | <img src="picture/icon_drive_route.png" width="240"> | <img src="picture/icon_map_marker.png" width="240"> |
 
