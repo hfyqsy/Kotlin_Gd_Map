@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <include layout="@layout/include_map_view"
+             android:layout_width="match_parent"
+             android:layout_height="200dp"/>
+
+    <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_height="35dp">
+        <RadioButton
+                android:id="@+id/mHouse"
+                style="@style/View_H"
+                android:checked="true"
+                android:gravity="center"
+                android:background="@drawable/check_box"
+                android:textColor="@color/text_check_blue_white"
+                android:button="@null"
+                android:text="@string/desc_choose_house"/>
+        <RadioButton
+                android:id="@+id/mSchool"
+                style="@style/View_H"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:background="@drawable/check_box"
+                android:textColor="@color/text_check_blue_white"
+                android:button="@null"
+                android:text="@string/desc_choose_school"/>
+        <RadioButton
+                android:id="@+id/mBuilding"
+                style="@style/View_H"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:background="@drawable/check_box"
+                android:textColor="@color/text_check_blue_white"
+                android:button="@null"
+                android:text="@string/desc_choose_building"/>
+        <RadioButton
+                android:id="@+id/mMarket"
+                style="@style/View_H"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:background="@drawable/check_box"
+                android:textColor="@color/text_check_blue_white"
+                android:button="@null"
+                android:text="@string/desc_choose_market"/>
+    </RadioGroup>
+
+
+    <include layout="@layout/include_recycler_view"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="@dimen/dp_10"
+             android:layout_marginLeft="@dimen/dp_10"
+             android:layout_marginRight="@dimen/dp_10"/>
+</LinearLayout>

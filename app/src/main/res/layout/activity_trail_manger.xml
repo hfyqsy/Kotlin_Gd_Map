@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+
+        <ToggleButton
+                android:id="@+id/btnToggle"
+                android:layout_width="70dp"
+                android:layout_height="@dimen/dp_40"/>
+        <TextView
+                android:id="@+id/tvTitle"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                style="@style/View_V"/>
+        <TextView
+                android:id="@+id/tvRecord"
+                android:layout_width="90dp"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+    <TextView
+            android:id="@+id/tvAllDis"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:minHeight="@dimen/dp_40"
+            android:layout_height="wrap_content"/>
+
+    <include layout="@layout/include_map_view"/>
+
+</LinearLayout>

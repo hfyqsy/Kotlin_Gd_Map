@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/dp_40">
+        <EditText
+                android:id="@+id/editSearch"
+                style="@style/View_V"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/dp_10"
+                android:drawableLeft="@mipmap/ic_search"
+                android:background="@drawable/selection_box"/>
+        <TextView
+                android:id="@+id/tvSearch"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/color_349"
+                android:textColor="@color/white"
+                android:text="@string/desc_search"/>
+    </LinearLayout>
+    <include layout="@layout/include_map_view"/>
+</LinearLayout>

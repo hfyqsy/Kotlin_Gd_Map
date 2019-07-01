@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/color_efe"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/dialog_title_location"
+            android:textColor="@color/color_111"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/tv_line"
+            style="@style/View_H_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dip"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:layout_width="103dp"
+                android:layout_height="31dp"
+                android:background="@drawable/chart_optimal"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/desc_cancel"
+                android:textColor="@color/color_666" />
+
+            <TextView
+                android:id="@+id/negativeButton"
+                android:layout_width="103dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="12dp"
+                android:background="@color/color_349"
+                android:gravity="center"
+                android:text="@string/desc_confirm"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

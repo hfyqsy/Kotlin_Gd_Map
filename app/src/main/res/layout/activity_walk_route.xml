@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:background="@mipmap/title_background"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+        <ImageView
+                android:id="@+id/route_drive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/route_drive_normal"/>
+
+
+        <ImageView
+                android:id="@+id/route_bus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:src="@mipmap/route_bus_normal"/>
+
+
+        <ImageView
+                android:id="@+id/route_walk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:src="@mipmap/route_walk_normal"/>
+
+        <ImageView
+                android:id="@+id/route_ride"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:src="@mipmap/route_ride_normal"/>
+
+
+        <TextView
+                android:id="@+id/route_CrosstownBus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_349"
+                android:text="跨城公交"/>
+
+    </LinearLayout>
+
+
+    <include layout="@layout/include_map_view"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"/>
+
+    <include layout="@layout/include_recycler_view"/>
+
+    <RelativeLayout
+            android:id="@+id/driveBottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@mipmap/bg_bottom_bar"
+            android:visibility="gone"
+            android:gravity="center_vertical">
+
+        <TextView
+                android:id="@+id/firstLine"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="12dp"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/secondLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstLine"
+                android:layout_marginLeft="12dp"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="13sp"
+                android:visibility="gone"/>
+
+        <LinearLayout
+                android:id="@+id/detail"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/desc_details"
+                    android:textColor="@color/color_349"
+                    android:textSize="14sp"/>
+
+            <Button
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@mipmap/arrow_right_blue"
+                    android:gravity="center_vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

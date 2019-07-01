@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:padding="@dimen/dp_10"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/tvFistLine"
+                style="@style/View_H"/>
+        <TextView
+                android:id="@+id/tvSecondLine"
+                android:gravity="right"
+                style="@style/View_H"/>
+
+    </LinearLayout>
+    <include layout="@layout/include_map_view"/>
+
+    <include layout="@layout/include_recycler_view"/>
+
+</LinearLayout>

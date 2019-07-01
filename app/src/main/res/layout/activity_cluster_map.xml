@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/dp_40"
+                android:orientation="horizontal">
+        <RadioButton
+                style="@style/View_H"
+                android:id="@+id/rdb_cluster"
+                android:background="@drawable/check_box"
+                android:button="@null"
+                android:gravity="center"
+                android:checked="true"
+                android:text="@string/rdb_cluster"/>
+        <RadioButton
+                android:id="@+id/rdb_uncluster"
+                style="@style/View_H"
+                android:button="@null"
+                android:background="@drawable/check_box"
+                android:gravity="center"
+                android:text="@string/rdb_open"/>
+    </RadioGroup>
+    <include layout="@layout/include_map_view"/>
+</LinearLayout>

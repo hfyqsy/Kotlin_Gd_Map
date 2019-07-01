@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/dp_40">
+        <CheckBox
+                android:id="@+id/cbMarkerText"
+                style="@style/View_H"
+                android:checked="true"
+                android:text="@string/desc_marker_text"/>
+        <View style="@style/View_V_line"/>
+        <CheckBox
+                android:id="@+id/cbMarker3D"
+                style="@style/View_H"
+                android:checked="true"
+                android:text="@string/desc_marker_3d"/>
+        <View style="@style/View_V_line"/>
+        <CheckBox
+                android:id="@+id/cbMarkerIndoor"
+                style="@style/View_H"
+                android:text="@string/desc_marker_indoor"/>
+        <View style="@style/View_V_line"/>
+        <CheckBox
+                android:id="@+id/cbSpan"
+                style="@style/View_H"
+                android:checked="true"
+                android:text="@string/desc_marker_span"/>
+        <View style="@style/View_V_line"/>
+        <CheckBox
+                android:id="@+id/cbSpanCenter"
+                style="@style/View_H"
+                android:text="@string/desc_marker_span_center"/>
+    </LinearLayout>
+    <View style="@style/View_H_line"/>
+    <include layout="@layout/include_map_view"/>
+
+</LinearLayout>

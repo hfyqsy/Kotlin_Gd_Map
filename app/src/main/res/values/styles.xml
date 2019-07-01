@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/color_333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:colorBackground">@color/color_eee</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <!--聚合相关1-->
+    <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style>
+    <!--聚合相关2-->
+    <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+    <!--聚合相关3-->
+    <style name="ClusterIcon.TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--竖向充满-->
+    <style name="View_H">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!--横向充满-->
+    <style name="View_V">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!--竖线-->
+    <style name="View_V_line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    <!--横线-->
+    <style name="View_H_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    <!--首页左侧tv布局-->
+    <style name="Tv_Main_Left">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="tv_left_chart" parent="View_H">
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--弹窗样式  透明-->
+    <style name="DialogTransparent" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!--弹窗样式-->
+    <style name="ThemeDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:textColor">@color/color_349</item>
+        <!--<item name="android:colorBackground">@color/white</item>-->
+
+    </style>
+</resources>

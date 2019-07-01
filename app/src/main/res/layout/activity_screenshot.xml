@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <include layout="@layout/include_map_view"/>
+
+
+        <TextView
+                android:id="@+id/mScreenshot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp_10"
+                android:background="@drawable/selection_box"
+                android:text="@string/desc_screenshot"/>
+        <TextView
+                android:id="@+id/mScreenshotShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mScreenshot"
+                android:paddingLeft="10dp"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp_10"
+                android:background="@drawable/selection_box"
+                android:text="@string/desc_screenshot_show"/>
+    </RelativeLayout>
+</LinearLayout>

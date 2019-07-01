@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="@dimen/dp_40">
+        <TextView
+                android:id="@+id/tvWord"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:text="@string/desc_word_location"/>
+
+        <View style="@style/View_V_line"/>
+
+        <TextView
+                android:id="@+id/tvContinue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:text="@string/desc_continue_location"/>
+
+        <View style="@style/View_V_line"/>
+
+        <TextView
+                android:id="@+id/tvRotation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:text="@string/desc_rotation_location"/>
+
+        <View style="@style/View_V_line"/>
+
+        <TextView
+                android:id="@+id/tvExact"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:text="@string/desc_exact_location"/>
+
+        <View style="@style/View_V_line"/>
+    </LinearLayout>
+
+    <View style="@style/View_H_line"/>
+
+    <include layout="@layout/include_map_view"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"/>
+    <TextView
+            android:id="@+id/tvLocationDesc"
+            style="@style/View_V"
+            android:textSize="12sp"
+            android:layout_weight="1.5"
+            android:textColor="@color/color_349"/>
+</LinearLayout>

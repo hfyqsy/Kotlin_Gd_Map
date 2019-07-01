@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Kotlin高德地图</string>
+
+    <string name="title_basics">地图基础功能</string>
+    <string name="title_basics_point">地图选点</string>
+    <string name="title_basics_cluster">点聚合效果1</string>
+    <string name="title_basics_cluster2">点聚合效果2</string>
+    <string name="title_basics_screenshot">地图截图</string>
+    <string name="title_basics_change">地图切换</string>
+
+
+    <string name="title_cover">地图覆盖物</string>
+    <string name="title_cover_types">文字图标,3D楼块</string>
+    <string name="title_cover_popup">多信息窗体</string>
+    <string name="title_cover_anim">动画效果</string>
+
+    <string name="title_trail">轨迹处理</string>
+    <string name="title_trail_manger">轨迹管理</string>
+    <string name="title_trail_move">平滑移动</string>
+    <string name="title_trail_handle">平滑处理</string>
+
+    <string name="title_search">搜索</string>
+    <string name="title_search_navi">周边搜索</string>
+    <string name="title_interactive">控件手势交互</string>
+    <string name="title_interactive_coexist">控件手势交互</string>
+
+    <string name="title_route">路线规划</string>
+    <string name="title_route_many">多路径展示</string>
+    <string name="title_route_drive">驾车路线规划</string>
+    <string name="title_route_plan">出行路线规划</string>
+    <string name="title_route_riding">骑行路线规划</string>
+    <string name="title_route_bus">公交路线规划</string>
+
+    <string name="title_location_navigation">定位导航</string>
+    <string name="title_location_one">单次/连续定位</string>
+    <string name="title_location_backstage">后台持续定位</string>
+    <string name="title_location_direction">定位方向扩散效果</string>
+    <string name="title_location_fence">地理围栏</string>
+    <string name="title_navigation_ghost">一键导航</string>
+    <string name="title_trip_host">出行</string>
+
+
+    <string name="desc_choose_house">住宅区</string>
+    <string name="desc_choose_market">商场</string>
+    <string name="desc_choose_school">学校</string>
+    <string name="desc_choose_building">楼宇</string>
+
+    <string name="desc_map_domestic">国内</string>
+    <string name="desc_map_abroad">国外</string>
+    <string name="desc_screenshot">截图</string>
+    <string name="desc_screenshot_show">查看截图</string>
+
+    <string name="rdb_cluster">聚合</string>
+    <string name="rdb_open">展开</string>
+    <string name="desc_marker_text">文字</string>
+    <string name="desc_marker_3d">3D楼块</string>
+    <string name="desc_marker_indoor">室内地图</string>
+    <string name="desc_marker_span_center">聚合中心</string>
+    <string name="desc_marker_span">聚集</string>
+    <string name="desc_all_dis">总距离：</string>
+    <string name="desc_move_start">Start</string>
+    <string name="desc_move_stop">Stop</string>
+    <string name="desc_move_pause">Pause</string>
+    <string name="rdb_un_optimize">不优化</string>
+    <string name="rdb_optimize">优化</string>
+    <string name="desc_search">搜索</string>
+    <string name="desc_begin_navi">开始导航</string>
+    <string name="desc_item_con">躲避拥堵</string>
+    <string name="desc_item_cost">避免收费</string>
+    <string name="desc_item_avoid">不走高速</string>
+    <string name="desc_item_speed">高速优先</string>
+    <string name="title_route_strategy">偏好设置</string>
+    <string name="desc_details">详情</string>
+    <string name="desc_word_location">单次定位</string>
+    <string name="desc_continue_location">连续定位</string>
+    <string name="desc_rotation_location">方向定位</string>
+    <string name="desc_exact_location">精准定位</string>
+    <string name="dialog_title_location">温馨提示</string>
+    <string name="dialog_message_location">开启WIFI模块会提升准确性</string>
+    <string name="desc_open_wifi">开启WIFI</string>
+    <string name="desc_cancle">取消</string>
+    <string name="desc_cancel">取消</string>
+    <string name="desc_confirm">确认</string>
+
+</resources>

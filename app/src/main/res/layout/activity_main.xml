@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.MainActivity">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <android.support.v4.widget.DrawerLayout
+            android:id="@+id/mMainDrawer"
+            android:choiceMode="singleChoice"
+            android:layout_width="match_parent"
+            android:background="@color/color_eee"
+            android:layout_height="match_parent">
+
+
+        <include layout="@layout/include_recycler_view"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"/>
+        <LinearLayout
+                android:id="@+id/mMainLeft"
+                android:orientation="vertical"
+                android:layout_gravity="start"
+                android:background="@color/color_f6f"
+                android:layout_width="180dp"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/mMainIvHead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10"
+                    android:background="@color/color_f6f"
+                    android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                    android:id="@+id/mMainTvOne"
+                    style="@style/Tv_Main_Left"
+                    android:text="@string/app_name"/>
+
+            <View style="@style/View_H_line"/>
+
+            <TextView
+                    android:id="@+id/mMainTvTwo"
+                    style="@style/Tv_Main_Left"
+                    android:text="@string/app_name"/>
+
+            <View style="@style/View_H_line"/>
+
+            <TextView
+                    android:id="@+id/mMainTvThree"
+                    style="@style/Tv_Main_Left"
+                    android:text="@string/app_name"/>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>
