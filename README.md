@@ -21,24 +21,18 @@
 |点聚合效果1     |ClusterMapActivity|
 |点聚合效果2     |ClusterOverActivity|
 |地图截图        |ScreenshotActivity|
-
 |地图覆盖物|
-| :----------: | 
 |文字图标，3D楼块|CloverTaggingActivity|
-
 |轨迹处理|
 |轨迹管理        |MangerTrailActivity|
 |平滑移动        |MoveMarkerActivity|
 |轨迹平滑处理    |SmoothActivity|
-
 |搜索|
 |地图搜索        |SearchActivity|
-
 |路线规划|
 |多路径规划      |CalculateRouteActivity|
 |驾车规划        |DriveActivity|
 |出行规划        |RouteActivity|
-
 |定位导航|
 |单次/连续定位   |ContinueLocationActivity|
 |一键导航        |NaviRouteActivity|
